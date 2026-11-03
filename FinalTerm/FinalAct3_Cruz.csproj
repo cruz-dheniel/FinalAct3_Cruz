@@ -102,5 +102,10 @@
     <None Include="Resources\EyeOff.png" />
     <None Include="Resources\README.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="sampledb.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

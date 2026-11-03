@@ -10,8 +10,10 @@ namespace FinalTerm
 {
     public static class Database
     {
+
         private static readonly string dbPath =
-           @"C:\FinalTerm\sampledb.accdb";
+            Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "sampledb.accdb");
+
 
         private static readonly string connectionString =
             "Provider=Microsoft.ACE.OLEDB.12.0;" +
